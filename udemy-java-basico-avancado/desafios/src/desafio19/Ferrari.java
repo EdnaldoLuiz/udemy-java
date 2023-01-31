@@ -1,12 +1,12 @@
-package desafio18;
+package desafio19;
 
 public class Ferrari extends Carro {
 
-Ferrari() {
+public Ferrari() {
 		super(300);
 }
 
-Ferrari(int maxSpeed) {
+public Ferrari(int maxSpeed) {
 	super(maxSpeed);
 	delta = 15;
 }

@@ -1,10 +1,10 @@
-package desafio18;
+package desafio19;
 
 public class Carro {
 
 	final int VELOCIDADE_MAXIMA;
-	int velocidade;
-	int delta = 5;
+	public int velocidade;
+	protected int delta = 5;
 	
 	Carro(int maxSpeed) {
 		VELOCIDADE_MAXIMA = maxSpeed;

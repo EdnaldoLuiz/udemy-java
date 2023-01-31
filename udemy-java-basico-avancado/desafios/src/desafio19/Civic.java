@@ -1,8 +1,8 @@
-package desafio18;
+package desafio19;
 
 public class Civic extends Carro {
 
-Civic() {
+public Civic() {
 		super(200);
 }
 
